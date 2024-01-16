@@ -43,7 +43,9 @@ const RestaurantMenu = () => {
               data={category?.card?.card}
               setShowIndex={() => {
                 // Toggle the state explicitly based on the current showItems value
-                setShowIndex((prevIndex) => (prevIndex === index ? null : index));
+                setShowIndex((prevIndex) =>
+                  prevIndex === index ? null : index
+                );
               }}
               showItems={index === showIndex ? true : false}
             />
