@@ -105,17 +105,17 @@ const Header = () => {
         </div>
         {toggleState && (
           <div className="bg-[#DEB887] flex flex-col justify-end p-6 absolute right-2 mt-10 top-16 rounded-lg animate-bounce-limited z-10">
-            <Link to="/">
+            <Link to="/" onClick={handleToggleState}>
               <p className="font-serif font-bold text-lg hover:text-orange-800">
                 Home
               </p>
             </Link>
-            <Link to="/about">
+            <Link to="/about" onClick={handleToggleState}>
               <p className="font-serif font-bold text-lg hover:text-orange-800">
                 About
               </p>
             </Link>
-            <Link to="contact">
+            <Link to="contact" onClick={handleToggleState}>
               <p className="font-serif font-bold text-lg hover:text-orange-800">
                 Contact us
               </p>
