@@ -14,7 +14,7 @@ const Cart = () => {
   return (
     <div className="min-h-screen text-center m-3 p-3">
       {cartItems.length === 0 ? (
-        <div className="flex flex-col justify-center items-center py-10 md:m-6 md:p-6 lg:py-20">
+        <div className="flex flex-col justify-center items-center mt-[30%] md:m-6 md:p-6 lg:py-20">
           <img
             className="h-80 w-80 md:h-80 md:w-80"
             src={EmptyCart}

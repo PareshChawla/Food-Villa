@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="max-w-2xl mx-auto p-6">
+    <div className="min-h-screen max-w-2xl mx-auto p-6">
       <h1 className="text-xl md:text-3xl font-bold mb-6 text-gray-800 text-center mt-2 md:mt-4">
         About Food Villa
       </h1>
