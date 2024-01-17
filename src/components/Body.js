@@ -31,8 +31,6 @@ const Body = () => {
     return () => clearTimeout(shimmerTimeout);
   }, []); // Ensure useEffect runs only once on component mount
 
-  console.log(RestaurantDetails?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-
   const isOnline = useOnline();
 
   if (!isOnline) {

@@ -3,7 +3,6 @@ import Star from "../assets/img/star_1828884.png";
 
 const RestaurantCard = (props) => {
   const { resData } = props;
-  console.log(resData);
 
   const { name, cuisines, cloudinaryImageId, locality, avgRating } = resData;
   const cleanedName = name.replace(/\([^)]+\)/, "").trim();

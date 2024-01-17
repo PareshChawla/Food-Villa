@@ -31,7 +31,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="md:h-[13vh] h-[18vh] w-full flex flex-row justify-between items-center sm:flex-row sm:flex bg-[#FAF1E4] border-[#DEB887] border shadow-lg">
+      <div className="md:h-[13vh] h-[11vh] w-full flex flex-row justify-between items-center sm:flex-row sm:flex bg-[#FAF1E4] border-[#DEB887] border shadow-lg">
         <Link to="/">
           <img
             className="md:h-[70px] md:w-[70px] h-20 w-20 md:ml-8 transform transition-transform hover:scale-105"
@@ -89,14 +89,14 @@ const Header = () => {
         <div className="relative">
           {toggleState ? (
             <div
-              className="h-6 w-6 m-2 md:hidden md:h-7 md:w-7 md:mr-2 cursor-pointer"
+              className="h-6 w-6 m-2 mr-4 md:hidden md:h-7 md:w-7 md:mr-2 cursor-pointer"
               onClick={handleToggleState}
             >
               <img src={Cross} alt="close" />
             </div>
           ) : (
             <div
-              className="h-7 w-7 m-2 md:hidden md:h-7 md:w-7 md:mr-2 cursor-pointer"
+              className="h-7 w-7 m-2 mr-4 md:hidden md:h-7 md:w-7 md:mr-2 cursor-pointer"
               onClick={handleToggleState}
             >
               <img src={Options} alt="options" />
